@@ -9,10 +9,10 @@ STLinkReflash.
 change the serial number in the firmware to 0x0000F800. The value must be 0x2EXXXXXX.
 
 ## Documentation:
-[all documentation files](doc/pcb/)  
-[schematic](doc/pcb/Schematic Prints.PDF)  
-[assembly drawings](doc/pcb/Assembly Drawings.PDF)  
-[board options](doc/pcb/board_options.txt) 
+[all documentation files](doc/pcb/)<br>
+[schematic](<doc/pcb/Schematic Prints.PDF>)<br>
+[assembly drawings](<doc/pcb/Assembly Drawings.PDF>)<br>
+[board options](doc/pcb/board_options.txt)
 
 ## Pinout and pcb image
 ![pinout](doc/pinout/pinout.png)   
