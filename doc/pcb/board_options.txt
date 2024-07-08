@@ -1,5 +1,12 @@
-4 layers 
-Immersion gold
-Total width 1.5mm
-Solder mask blue
-Overlay white
+[board_options]
+    type = "typical"                # тип печатной платы типовая или кастомная
+    layers = 2                      # количесвтво слоев
+    surface_finish = "ImersionGold" # покрытие печатной платы - покрытие контактных площадок
+    pcb_color = "black"             # цвет паяльной маски печатной платы
+    overlay_color = "white"         # цвет шелкографической маркировки
+    pcb_thickness = 1.5             # толщина в милиметрах
+    cooper_thickness = 35           # толщина меди в микрометрах
+    solder_point = 125              # колличество точек пайки на случай ручного монтажа
+    ext_bom = false                 # значение true или false в зависимости от того есть ли внешние коннекторы
+                                    # если внешние разъемы есть то обязательно наличие файла ext_bom.csv с указанием
+                                    # доп фурнитуры 

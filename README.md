@@ -8,5 +8,13 @@ STLinkReflash.
 [jlink_stlink_firmware.bin](firmware/jlink_stlink_firmware.bin) - the firmware for creating the jlink-stlink. You must
 change the serial number in the firmware to 0x0000F800. The value must be 0x2EXXXXXX.
 
-![](doc/photo/top.png)
-![](doc/photo/bot.png)
+## Documentation:
+[all documentation files](doc/pcb/)  
+[schematic](doc/pcb/Schematic Prints.PDF)  
+[assembly drawings](doc/pcb/Assembly Drawings.PDF)  
+[board options](doc/pcb/board_options.txt) 
+
+## Pinout and pcb image
+![pinout](doc/pinout/pinout.png)   
+![top](doc/photo/top.png)  
+![top](doc/photo/bot.png)  
