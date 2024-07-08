@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: rlink_pcb.pcbdoc   30.11.2023  1:21:40
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : rlink_pcb-RoundHoles.TXT
+ASCII SlotHoles File : rlink_pcb-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             25        PTH        1.40inch (35.60mm)
+T2      12mil (0.3mm)                                             Round             25        PTH        3.52inch (89.31mm)
+T3      20mil (0.508mm)                                           Round             16        PTH        2.08inch (52.82mm)
+T4      26mil (0.65mm)                                            Slot              4         PTH        1.49inch (37.97mm)
+T5      35mil (0.9mm)                                             Round             13        PTH        2.27inch (57.67mm)
+T6      125mil (3.175mm)                                          Round             2         PTH        1.09inch (27.60mm)
+T7      28mil (0.7mm)                                             Round             2         NPTH       0.23inch (5.78mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              87
+
+Total Processing Time (hh:mm:ss) : 00:00:00

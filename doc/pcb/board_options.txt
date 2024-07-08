@@ -1,0 +1,5 @@
+4 layers 
+Immersion gold
+Total width 1.5mm
+Solder mask blue
+Overlay white
