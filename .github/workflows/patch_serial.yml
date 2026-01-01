@@ -1,0 +1,33 @@
+name: Patch Serial and Release Firmware
+
+on:
+  workflow_dispatch:
+    inputs:
+      serial:
+        description: 'Custom serial (hex, e.g. 2E12345) or leave blank for random'
+        required: false
+
+jobs:
+  patch-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Patch firmware serial
+        run: |
+          cd firmware
+          chmod +x patch_serial.sh
+          if [ -n "${{ github.event.inputs.serial }}" ]; then
+            ./patch_serial.sh jlink_stlink_firmware.bin jlink_stlink_firmware_patched.bin "${{ github.event.inputs.serial }}"
+          else
+            ./patch_serial.sh jlink_stlink_firmware.bin jlink_stlink_firmware_patched.bin
+          fi
+
+      - name: Upload patched firmware
+        uses: actions/upload-artifact@v4
+        with:
+          name: jlink_stlink_firmware_patched
+          path: firmware/jlink_stlink_firmware_patched.bin
+          if-no-files-found: error
