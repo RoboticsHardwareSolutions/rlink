@@ -28,7 +28,9 @@ else
   SERIAL_HEX="2E${RAND_HEX}"
 fi
 
-SERIAL_LE_BIN=$(printf "%08x" 0x$SERIAL_HEX | sed 's/../& /g' | awk '{print $4$3$2$1}')
+
+# Convert 2EXXXXX to little-endian 4 bytes
+SERIAL_LE_BIN=$(echo $SERIAL_HEX | sed 's/../& /g' | awk '{print $4$3$2$1}')
 SERIAL_BYTES=$(echo $SERIAL_LE_BIN | xxd -r -p | xxd -p)
 
 
