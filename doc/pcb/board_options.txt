@@ -1,4 +1,6 @@
 [board_options]
+    length = 56
+    width = 30
     type = "typical"                # тип печатной платы типовая или кастомная
     layers = 2                      # количесвтво слоев
     surface_finish = "ImersionGold" # покрытие печатной платы - покрытие контактных площадок

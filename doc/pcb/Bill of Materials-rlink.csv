@@ -1,5 +1,4 @@
-"Description","Comment","Designator","Footprint","Part Number","Alternative Part","Quantity"
-"","","","","","",""
+"Description","Comment","Designator","Footprint","Part","Alternative Part","Quantity"
 "Capacitor","100nF 16V","C1, C2, C3, C6","C_0402","CC0402JRX7R6BB104","","4"
 "Capacitor","10pF 16V","C4, C5","C_0402","CC0402GRNPO9BN100","","2"
 "Capacitor","4.7uF 16V","C7","C_0402","CC0402KRX5R6BB475","","1"
